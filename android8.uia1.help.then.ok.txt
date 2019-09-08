@@ -1,0 +1,639 @@
+[info] [35m[Appium][39m Welcome to Appium v1.13.0
+[info] [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","noReset":true,"platformVersion":"8.0.0","platformName":"Android","udid":"520xxxxxxxxxxxxxx","deviceName":"SM-J737T1"},"capabilities":{"alwaysMatch":{"appium:appActivity":"com.xxxx.startup.SplashActivity","appium:appPackage":"com.xxxx","appium:deviceName":"SM-J737T1","appium:noReset":true,"platformName":"android","appium:platformVersion":"8.0.0","appium:udid":"520xxxxxxxxxxxxxx"},"firstMatch":[{}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","noReset":true,"platformVersion":"8.0.0","platformName":"Android","udid":"520xxxxxxxxxxxxxx","deviceName":"SM-J737T1"},null,{"alwaysMatch":{"appium:appActivity":"com.xxxx.startup.SplashActivity","appium:appPackage":"com.xxxx","appium:deviceName":"SM-J737T1","appium:noReset":true,"platformName":"android","appium:platformVersion":"8.0.0","appium:udid":"520xxxxxxxxxxxxxx"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1567829673943 (00:14:33 GMT-0400 (Eastern Daylight Time))
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m ======================================================================
+[warn] [35m[Appium][39m   DEPRECATION WARNING:
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[warn] [35m[Appium][39m   capabilities for this Android session
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   Setting 'automationName=UiAutomator1' by default and using the 
+[warn] [35m[Appium][39m   UiAutomator1 Driver
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The next minor version of Appium (1.14.x) will set 
+[warn] [35m[Appium][39m   'automationName=UiAutomator2' by default and use the UiAutomator2 
+[warn] [35m[Appium][39m   Driver
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[warn] [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[warn] [35m[Appium][39m   platforms
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+[warn] [35m[Appium][39m   Android drivers, please add 'automationName=UiAutomator1' to your 
+[warn] [35m[Appium][39m   desired capabilities
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   For more information about drivers, please visit 
+[warn] [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[warn] [35m[Appium][39m   'Drivers' menu
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m ======================================================================
+[warn] [35m[Appium][39m 
+[info] [35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[warn] [35m[Appium][39m Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+[info] [35m[Appium][39m Appium v1.13.0 creating new AndroidDriver (v4.15.1) session
+[info] [35m[Appium][39m Capabilities:
+[info] [35m[Appium][39m   platformName: android
+[info] [35m[Appium][39m   appActivity: com.xxxx.startup.SplashActivity
+[info] [35m[Appium][39m   appPackage: com.xxxx
+[info] [35m[Appium][39m   deviceName: SM-J737T1
+[info] [35m[Appium][39m   noReset: true
+[info] [35m[Appium][39m   platformVersion: 8.0.0
+[info] [35m[Appium][39m   udid: 520xxxxxxxxxxxxxx
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appActivity":"com.goswych... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[info] [35m[BaseDriver][39m Session created with session id: ded8b44e-0ee1-466a-8969-80edfbba609a[debug] [35m[ADB][39m 1 device(s) connected
+[info] [35m[AndroidDriver][39m Using device: 520xxxxxxxxxxxxxx
+[info] [35m[ADB][39m Using 'adb.exe' from 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to 520xxxxxxxxxxxxxx
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell getprop ro.build.version.sdk'[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 26
+[debug] [35m[ADB][39m Device API level: 26
+[warn] [35m[AndroidDriver][39m Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+[info] [35m[AndroidDriver][39m App file was not listed, instead we're going to run com.xxxx directly on the device
+[debug] [35m[AndroidDriver][39m Checking whether package is present on the device
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell pm list packages com.xxxx'[info] [35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx wait-for-device'[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell dumpsys package io.appium.settings'[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell dumpsys package io.appium.settings'[info] [35m[ADB][39m Using 'aapt.exe' from 'C:\Users\DXXX\AppData\Local\Android\Sdk\build-tools\29.0.2\aapt.exe'[debug] [35m[ADB][39m The version code of the installed 'io.appium.settings' is greater than the application version code (18 > 17)
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Users\DXXX\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell 'pgrep --help; echo $?''[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell pgrep \^appium\\.settings\$'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell appops set io.appium.settings android\:mock_location allow'[debug] [35m[Logcat][39m Starting logcat capture[info] [35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell getprop ro.build.version.release'[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 8.0.0
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell wm size'[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell getprop ro.product.model'[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-J737T1
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell getprop ro.product.manufacturer'[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[warn] [35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[debug] [35m[AndroidDriver][39m No app capability. Assuming it is already on the device
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx forward tcp\:4724 tcp\:4724'[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell mkdir -p /data/local'[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx push C\:\\Users\\DXXX\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'[info] [35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","520xxxxxxxxxxxxxx","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.xxxx","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false][debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[info] [35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected[info] [35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'C:\Users\DXXX\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 520xxxxxxxxxxxxxx shell am start -W -n com.xxxx/com.xxxx.startup.SplashActivity -S'[info] [35m[Appium][39m New AndroidDriver session created successfully, session ded8b44e-0ee1-466a-8969-80edfbba609a added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1567829682749 (00:14:42 GMT-0400 (Eastern Daylight Time))
+[debug] [35m[W3C (ded8b44e)][39m Cached the protocol value 'W3C' for the new session ded8b44e-0ee1-466a-8969-80edfbba609a
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m8813 ms - 843[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m15 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m3 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m2 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m2 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m2 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"edit_password"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","edit_password","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edit_password","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edit_password","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'edit_password' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/edit_password][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m797 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/1/displayed[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.elementDisplayed() with args: ["1","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.elementDisplayed() result: true
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/1/displayed [39m[32m200[39m [90m14 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m3 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"edit_password"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","edit_password","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edit_password","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edit_password","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'edit_password' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/edit_password]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m13 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/2/value[39m
+[info] [35m[HTTP][39m [90m{"id":"2","text":"135188","value":["1","3","5","1","8","8"]}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.setValue() with args: [["1","3","5","1","8","8"],"2","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"135188","replace":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"135188","replace":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: setText
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using element passed in: 2
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Sending plain text to element: 135188[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.setValue() result: true
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/2/value [39m[32m200[39m [90m5180 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/appium/device/press_keycode[39m
+[info] [35m[HTTP][39m [90m{"keycode":111}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.pressKeyCode() with args: [111,null,null,null,null,"ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"pressKeyCode","params":{"keycode":111,"metastate":null}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":111,"metastate":null}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: pressKeyCode[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.pressKeyCode() result: true
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/appium/device/press_keycode [39m[32m200[39m [90m591 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m2 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"btnSignupLogin"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","btnSignupLogin","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btnSignupLogin","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btnSignupLogin","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'btnSignupLogin' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/btnSignupLogin]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m26 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/3/displayed[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.elementDisplayed() with args: ["3","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"3"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"3"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getAttribute[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.elementDisplayed() result: true
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/3/displayed [39m[32m200[39m [90m495 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m3 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"btnSignupLogin"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","btnSignupLogin","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btnSignupLogin","context":"","multiple":false}}[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'btnSignupLogin' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/btnSignupLogin]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4","ELEMENT":"4"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m33 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/4/click[39m
+[info] [35m[HTTP][39m [90m{"id":"4"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.click() with args: ["4","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.click() result: true
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/4/click [39m[32m200[39m [90m315 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m2 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m2 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m3 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"image_hamburger"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","image_hamburger","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"image_hamburger","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"image_hamburger","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'image_hamburger' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/image_hamburger][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/image_hamburger][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=image_hamburger][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=image_hamburger, INSTANCE=0][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'image_hamburger' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/image_hamburger][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/image_hamburger][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=image_hamburger][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=image_hamburger, INSTANCE=0]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"image_hamburger"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","image_hamburger","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"image_hamburger","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"image_hamburger","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'image_hamburger' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/image_hamburger][debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5","ELEMENT":"5"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m227 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/5/displayed[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.elementDisplayed() with args: ["5","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"5"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"5"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.elementDisplayed() result: true
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/5/displayed [39m[32m200[39m [90m183 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m3 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"image_hamburger"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","image_hamburger","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"image_hamburger","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"image_hamburger","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'image_hamburger' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/image_hamburger][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6","ELEMENT":"6"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m294 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.click() result: true
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/6/click [39m[32m200[39m [90m654 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m3 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"RecyclerView"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","RecyclerView","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"RecyclerView","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"RecyclerView","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'RecyclerView' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/RecyclerView][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7","ELEMENT":"7"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m1082 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/7/displayed[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.elementDisplayed() with args: ["7","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"7"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"7"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.elementDisplayed() result: true
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/7/displayed [39m[32m200[39m [90m115 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m2 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"RecyclerView"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","RecyclerView","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"RecyclerView","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"RecyclerView","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'RecyclerView' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/RecyclerView]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8","ELEMENT":"8"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m113 ms - 67[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/8/elements[39m
+[info] [35m[HTTP][39m [90m{"id":"8","using":"class name","value":"android.widget.TextView"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElementsFromElement() with args: ["class name","android.widget.TextView","8","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"8","multiple":true}}[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"8","multiple":true}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'android.widget.TextView' using 'CLASS_NAME' with the contextId: '8' multiple: true
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 0
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 1[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 2
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 3[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 4
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 5[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 6
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 7[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 8
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[8] is 8, counter: 9[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"9"},{"ELEMENT":"10"},{"ELEMENT":"11"},{"ELEMENT":"12"},{"ELEMENT":"13"},{"ELEMENT":"14"},{"ELEMENT":"15"},{"ELEMENT":"16"},{"ELEMENT":"17"},{"ELEMENT":"18"}]}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElementsFromElement() result: [{"element-6066-11e4-a52e-4f735466cecf":"9","ELEMENT":"9"},{"element-6066-11e4-a52e-4f735466cecf":"10","ELEMENT":"10"},{"element-6066-11e4-a52e-4f735466cecf":"11","ELEMENT":"11"},{"element-6066-11e4-a52e-4f735466cecf":"12","ELEMENT":"12"},{"element-6066-11e4-a52e-4f735466cecf":"13","ELEMENT":"13"},{"element-6066-11e4-a52e-4f735466cecf":"14","ELEMENT":"14"},{"element-6066-11e4-a52e-4f735466cecf":"15","ELEMENT":"15"},{"element-6066-11e4-a52e-4f735466cecf":"16","ELEMENT":"16"},{"element-6066-11e4-a52e-4f735466cecf":"17","ELEMENT":"17"},{"element-6066-11e4-a52e-4f735466cecf":"18","ELEMENT":"18"}]
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/8/elements [39m[32m200[39m [90m1378 ms - 609[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/touch/perform[39m
+[info] [35m[HTTP][39m [90m{"actions":[{"action":"longPress","options":{"element":"14"}},{"action":"moveTo","options":{"element":"9"}},{"action":"release","options":{}}]}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"element":"14"}},{"action":"moveTo","options":{"element":"9"}},{"action":"release","options":{}}],"ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"14"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"14"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":80,"y":846}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"9"}}[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":80,"y":358}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:drag","params":{"elementId":"14","destElId":"9","startX":80,"startY":846,"endX":80,"endY":358,"steps":80}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:drag","params":{"elementId":"14","destElId":"9","startX":80,"startY":846,"endX":80,"endY":358,"steps":80}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: drag
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Dragging the element with id 14 to destination element with id 9 with steps: 80[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.performTouch() result: true
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/touch/perform [39m[32m200[39m [90m2841 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m5 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"RecyclerView"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","RecyclerView","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"RecyclerView","context":"","multiple":false}}[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'RecyclerView' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/RecyclerView][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"19"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"19","ELEMENT":"19"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m449 ms - 69[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/19/elements[39m
+[info] [35m[HTTP][39m [90m{"id":"19","using":"class name","value":"android.widget.TextView"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElementsFromElement() with args: ["class name","android.widget.TextView","19","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"19","multiple":true}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"19","multiple":true}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'android.widget.TextView' using 'CLASS_NAME' with the contextId: '19' multiple: true
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 0[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 1
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 2[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 3
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 4[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 5
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 6[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 7
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 8[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Element[19] is 19, counter: 9[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"20"},{"ELEMENT":"21"},{"ELEMENT":"22"},{"ELEMENT":"23"},{"ELEMENT":"24"},{"ELEMENT":"25"},{"ELEMENT":"26"},{"ELEMENT":"27"},{"ELEMENT":"28"}]}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElementsFromElement() result: [{"element-6066-11e4-a52e-4f735466cecf":"20","ELEMENT":"20"},{"element-6066-11e4-a52e-4f735466cecf":"21","ELEMENT":"21"},{"element-6066-11e4-a52e-4f735466cecf":"22","ELEMENT":"22"},{"element-6066-11e4-a52e-4f735466cecf":"23","ELEMENT":"23"},{"element-6066-11e4-a52e-4f735466cecf":"24","ELEMENT":"24"},{"element-6066-11e4-a52e-4f735466cecf":"25","ELEMENT":"25"},{"element-6066-11e4-a52e-4f735466cecf":"26","ELEMENT":"26"},{"element-6066-11e4-a52e-4f735466cecf":"27","ELEMENT":"27"},{"element-6066-11e4-a52e-4f735466cecf":"28","ELEMENT":"28"}]
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/19/elements [39m[32m200[39m [90m1675 ms - 551[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/20/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["20","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"20"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"20"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getText
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"ARCHIVED CARDS"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "ARCHIVED CARDS"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/20/text [39m[32m200[39m [90m111 ms - 26[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/21/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["21","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"21"}}[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"REFER A FRIEND"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "REFER A FRIEND"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/21/text [39m[32m200[39m [90m111 ms - 26[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/22/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["22","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"22"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"22"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getText
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"PROMOTIONS"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "PROMOTIONS"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/22/text [39m[32m200[39m [90m119 ms - 22[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/23/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["23","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"23"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"23"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getText[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"FAQ"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "FAQ"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/23/text [39m[32m200[39m [90m118 ms - 15[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/24/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["24","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"24"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"24"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getText[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"REQUEST SUPPORT"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "REQUEST SUPPORT"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/24/text [39m[32m200[39m [90m182 ms - 27[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/25/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["25","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"25"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"25"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getText
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"SETTINGS"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "SETTINGS"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/25/text [39m[32m200[39m [90m116 ms - 20[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/26/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["26","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"26"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"26"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getText[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"TAKE A TOUR"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "TAKE A TOUR"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/26/text [39m[32m200[39m [90m121 ms - 23[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/27/text[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getText() with args: ["27","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"27"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"27"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getText
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"LOG OUT"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getText() result: "LOG OUT"
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/27/text [39m[32m200[39m [90m114 ms - 19[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/27/click[39m
+[info] [35m[HTTP][39m [90m{"id":"27"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.click() with args: ["27","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"27"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"27"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.click() result: true
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/27/click [39m[32m200[39m [90m323 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m4 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"button_message_yes"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","button_message_yes","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"button_message_yes","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"button_message_yes","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'button_message_yes' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/button_message_yes][debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"29"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"29","ELEMENT":"29"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m742 ms - 69[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/29/displayed[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.elementDisplayed() with args: ["29","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"29"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"29"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getAttribute[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.getSession() with args: ["ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"SM-J737T1","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx"},"platformName":"android","appActivity":"com.xxxx.startup.SplashActivity","appPackage":"com.xxxx","deviceName":"520xxxxxxxxxxxxxx","noReset":true,"platformVersion":"8.0.0","udid":"520xxxxxxxxxxxxxx","deviceUDID":"520xxxxxxxxxxxxxx","deviceScreenSize":"720x1280","deviceModel":"SM-J737T1","deviceManufacturer":"samsung"}
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a [39m[32m200[39m [90m3 ms - 775[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element[39m
+[info] [35m[HTTP][39m [90m{"using":"id","value":"button_message_yes"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.findElement() with args: ["id","button_message_yes","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"button_message_yes","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"button_message_yes","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'button_message_yes' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xxxx:id/button_message_yes]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"30"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"30","ELEMENT":"30"}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element [39m[32m200[39m [90m15 ms - 69[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/30/click[39m
+[info] [35m[HTTP][39m [90m{"id":"30"}[39m
+[debug] [35m[W3C (ded8b44e)][39m Calling AppiumDriver.click() with args: ["30","ded8b44e-0ee1-466a-8969-80edfbba609a"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"30"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"30"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[W3C (ded8b44e)][39m Responding to client with driver.click() result: true
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/ded8b44e-0ee1-466a-8969-80edfbba609a/element/30/click [39m[32m200[39m [90m463 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
